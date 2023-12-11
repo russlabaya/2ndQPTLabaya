@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+.item1 { grid-area: header; background-color: red;}
+.item2 { grid-area: menu; background-color: orange;}
+.item3 { grid-area: main; background-color: yellow;}
+.item5 { grid-area: footer; background-color: blue;}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item1">This is my story</div>
+  <div class="item2">Navigation<ul>
+ <li><a href="index.html">About Me</a></li>
+  <li><a href="My school.html">My School</a></li>
+  <li><a href="My Hobbies.html">My Hobbies</a></li>
+  <li><a href="Singapore.html">My trip to Singapore</a></li>
+  <li><a href="Australia.html">My trip to Australia</a></li></li>
+</ul></div>
+  <div class="item3">Hi my name is Russell Andrian O.Labaya. I am a young vlogger on facebook<br>I am currently 14 years old. I am a was born on April 4, 2009. I currently live in Cebu City.<br> I plan to emigrate to Austrailia after grade 12 because of better education and pay.<br> <img src="387809550_215526548212347_4950190672314397227_n.jpg"> </div>  
+  <div class="item5">Made by Russell Labaya</div>
+</div>
+
+</body>
+</html>
